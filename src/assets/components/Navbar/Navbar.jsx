@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaShoppingCart} from 'react-icons/fa'
+import DarkMode from './DarkMode'
 
 const Navbar = () => {
     return (
@@ -12,7 +13,10 @@ const Navbar = () => {
                                 <img src='' alt="Foodie Zone" className='w-10'/> Foodie
                             </a>
                         </div>
-                        <div>
+                        <div className='flex items-center gap-4'>
+                            <div>
+                                <DarkMode/>
+                            </div>
                             <ul className='hidden sm:flex gap-4'>
                                 <li>
                                     <a href="#" className='inline-block p-4 hover:text-primary'>Home</a>
