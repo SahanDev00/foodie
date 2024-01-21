@@ -1,6 +1,7 @@
 import React from 'react'
 import {FaShoppingCart} from 'react-icons/fa'
 import DarkMode from './DarkMode'
+import logo from '../../food-logo.png'
 
 const Navbar = () => {
     return (
@@ -10,7 +11,7 @@ const Navbar = () => {
                     <div className="flex justify-between items-center">
                         <div>
                             <a href="#" className='flex items-center gap-2 text-2xl sm:text-3xl font-bold'>
-                                <img src='' alt="Foodie Zone" className='w-10'/> Foodie
+                                <img src={logo} alt="Foodie Zone" className='w-10'/> Foodie
                             </a>
                         </div>
                         <div className='flex items-center gap-4'>
