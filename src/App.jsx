@@ -1,9 +1,11 @@
 import React from 'react'
 import AppStore from './assets/components/AppStore/AppStore'
 import Banner from './assets/components/Banner/Banner'
+import Footer from './assets/components/Footer/Footer'
 import Hero from './assets/components/Hero/Hero'
 import Navbar from './assets/components/Navbar/Navbar'
 import Services from './assets/components/Services/Services'
+import Testimonial from './assets/components/Testimonial/Testimonial'
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
        <Services/>
        <Banner/>
        <AppStore/>
+       <Testimonial/>
+       <Footer/>
     </div>
     </>
   )
